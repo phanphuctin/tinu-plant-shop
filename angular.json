@@ -28,6 +28,9 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "src/assets",
+              "src/assets/image",
+              "src/assets/i18n",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -36,9 +39,7 @@
                 "glob": "**/*",
                 "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
                 "output": "/assets/"
-              },
-              "src/access",
-              "src/assets/image"
+              }
             ],
             "styles": [
               "src/theme.less",

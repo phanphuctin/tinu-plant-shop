@@ -1,6 +1,7 @@
-<nz-result nzStatus="warning" nzTitle="{{'NOT_FOUND | translate'}}">
+<nz-result nzStatus="warning" nzTitle="{{ 'NOT_FOUND.TEXT' | transloco }}">
     <div nz-result-extra class="notfound-img">
         <img class="image" src="./assets/image/plant.png" alt="Plant Image">
         <button nz-button (click)="goBack()">Go Back</button>
+        <button nz-button (click)="onChangeLanguage()">Change Language</button>
     </div>
 </nz-result>
